@@ -1,7 +1,5 @@
 # python-django-project-to-exe
-<h3>how to convert python django projects to exe</h3></br>
-
-## Translated from Turkish to English using google translate -- translate.google.com</br>
+<h3>how to convert python django projects to exe</h3></br> 
 
 1 - open a new cmd</br>
     # win+x > run > "cmd" >[ENTER]</br>
@@ -29,3 +27,5 @@
     # --onefile = to get exe file only</br>
     # --add-data "venv;venv" = we print the venv files into our exe application</br>
     # our app.py prelauncher file</br>
+	
+#Translated from Turkish to English using google translate -- translate.google.com</br>
