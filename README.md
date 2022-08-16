@@ -9,8 +9,7 @@
 2 - activate venv</br>
     cmd >> cd venv # venv folder</br>
     cmd >> cd Scripts</br>
-    cmd >> activate.bat</br>
-    # cmd should look like this : (env) C:\Users\[user name]\Desktop\toExe\venv\Scripts></br>
+    cmd >> activate.bat</br> 
     cmd >> cd ../</br>
     cmd >> cd ../</br>
     # cmd should look like this (env) C:\Users\[user name]\Desktop\toExe></br>
