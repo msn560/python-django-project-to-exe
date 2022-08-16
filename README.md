@@ -28,4 +28,3 @@
     # --add-data "venv;venv" = we print the venv files into our exe application</br>
     # our app.py prelauncher file</br>
 	
-#Translated from Turkish to English using google translate -- translate.google.com</br>
