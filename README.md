@@ -29,3 +29,4 @@
     # --add-data "djangoProject;djangoProject" = we print the djangoProject dir into our exe application</br>
     # our app.py prelauncher file</br>
 	
+you app -> dist/app.exe
