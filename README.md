@@ -1,5 +1,12 @@
 # python-django-project-to-exe
 <h3>how to convert python django projects to exe</h3></br> 
+</br></br>
+ #################################################</br>
+# Formwork systems are examples, appearances      #</br>
+# think cmd enable venv                           #</br> 
+# edit app.py downloaded folder names port layout #</br>
+# install pyinstaller and central                 #</br>
+ #################################################</br>
 
 1 - open a new cmd</br>
     # win+x > run > "cmd" >[ENTER]</br>
