@@ -1,6 +1,5 @@
-# python-django-project-to-exe
-how to convert python django projects to exe
-
+# python-django-project-to-exe 
+django projesi exe dosyasına nasıl dönüştürülür
 
 1 - yeni bir cmd açın 
     # win+x > çalıştır > "cmd" >[ENTER] 
