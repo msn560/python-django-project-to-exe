@@ -12,7 +12,7 @@
     cmd >> activate.bat</br> 
     cmd >> cd ../</br>
     cmd >> cd ../</br>
-    # cmd should look like this (env) C:\Users\[user name]\Desktop\toExe></br>
+    # cmd should look like this >>> (env) C:\Users\[user name]\Desktop\toExe></br>
     
 3 - install pyinstaller</br>
     cmd >> pip install pyinstaller</br>
