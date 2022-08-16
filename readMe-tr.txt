@@ -1,0 +1,30 @@
+# python-django-project-to-exe
+how to convert python django projects to exe
+
+
+1 - yeni bir cmd açın 
+    # win+x > çalıştır > "cmd" >[ENTER] 
+    cmd >> cd C:\Users\[user name]\Desktop\toEXE 
+    # yada klasör yoluna cmd yazın enter basın  
+  
+2 - venv aktif edin 
+    cmd >> cd venv  # venv klasörü 
+    cmd >> cd Scripts
+    cmd >> activate.bat
+    # cmd bu şekilde gözükmeli : (env) C:\Users\[user name]\Desktop\toExe\venv\Scripts>
+    cmd >> cd ../
+    cmd >> cd ../
+    # cmd bu şekilde gözükmeli (env) C:\Users\[user name]\Desktop\toExe>
+    
+3 - pyinstaller kurun 
+    cmd >> pip install pyinstaller
+    # !daha önce global olarak kurmuş olabilirsiniz venv içinde kurulu olmalı. Kontrol etmek için cmd >> pip list 
+
+4 - app.py dosyasını kendinize göre düzenleyin (port ayarı vs burada)
+
+5 - Derleyiciyi başlatın
+    cmd >> pyinstaller --onefile --add-data "venv;venv" --add-data "djangoProject;djangoProject" app.py 
+    # açıklamalar
+    # --onefile = sadece exe dosyası elde etmek için
+    # --add-data "venv;venv" = venv dosyalarını exe uygulamamızın içine yazdırıyoruz
+    # app.py ön başlatıcı dosyamız
