@@ -25,6 +25,7 @@
     cmd >> pyinstaller --onefile --add-data "venv;venv" --add-data "djangoProject;djangoProject" app.py</br>
     # descriptions</br>
     # --onefile = to get exe file only</br>
-    # --add-data "venv;venv" = we print the venv files into our exe application</br>
+    # --add-data "venv;venv" = we print the venv dir into our exe application</br>
+    # --add-data "djangoProject;djangoProject" = we print the djangoProject dir into our exe application</br>
     # our app.py prelauncher file</br>
 	
