@@ -27,3 +27,10 @@ django projesi exe dosyasına nasıl dönüştürülür
     # --onefile = sadece exe dosyası elde etmek için
     # --add-data "venv;venv" = venv dosyalarını exe uygulamamızın içine yazdırıyoruz
     # app.py ön başlatıcı dosyamız
+
+ #############################################################################
+# Kalıp dosyaları örnektir, dizin şemasıdır                                   #
+# cmd açın venv aktif edin                                                    #
+# app.py dosyasını indirin klasör adlarını port numarasını düzenleyin         #
+# pyinstaller kurun ve çalıştırın                                             #
+ #############################################################################
