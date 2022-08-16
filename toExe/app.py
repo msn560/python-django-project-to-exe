@@ -5,7 +5,7 @@ port = 7000
 
 print("python venv activate")
 #opening cmd and start venv
-p1 = Popen([  os.path.dirname(os.path.abspath(__file__)) + "/env/Scripts/activate.bat"], stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
+p1 = Popen([  os.path.dirname(os.path.abspath(__file__)) + "/venv/Scripts/activate.bat"], stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)
 #print(p1.communicate())
 #or
 p1.wait()
