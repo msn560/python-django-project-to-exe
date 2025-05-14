@@ -1,6 +1,6 @@
-İşte istenen formatta düzenlenmiş README.md içeriği:
+ 
 
-```markdown
+ 
 # python-django-project-to-exe  
 Django projesi EXE dosyasına nasıl dönüştürülür
 
