@@ -54,13 +54,12 @@ pyinstaller --onefile --add-data "venv;venv" --add-data "djangoProject;djangoPro
 
 ## 📌 Önemli Notlar
 ```
-#############################################################################
-# Kalıp dosyaları örnektir, dizin şemasıdır                                 #
-# 1. CMD açıp venv aktif edin                                              #
-# 2. app.py dosyasını indirip klasör adlarını ve portu düzenleyin          #
-# 3. PyInstaller kurup çalıştırın                                          #
-#############################################################################
+ 
+# Kalıp dosyaları örnektir, dizin şemasıdır                                 
+# 1. CMD açıp venv aktif edin                                              
+# 2. app.py dosyasını indirip klasör adlarını ve portu düzenleyin          
+# 3. PyInstaller kurup çalıştırın                                         
 ```
 
 *Windows path ayırıcı olarak `;` kullanıldığına dikkat edin*
-```
+ 
